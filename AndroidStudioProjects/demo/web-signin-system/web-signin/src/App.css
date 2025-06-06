@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+}
+
+.qr-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+}
+
+.settings-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.settings-modal input {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.settings-modal button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.records {
+  margin-top: 40px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.records table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.records th, .records td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.records th {
+  background-color: #f4f4f4;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+} 
